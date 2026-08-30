@@ -22,4 +22,5 @@ notebooks/meta_data.csv
 Thumbs.db
 
 # VSCode
-.vscode/examples/data/ProteinAbundances.csv 
+.vscode/
+examples/data/ProteinAbundances.csv 
