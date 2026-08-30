@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omicsqc"
+version = "0.1.0"
+description = "Proteomics QC and batch correction pipeline"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "inmoose",
+]
+
+[project.optional-dependencies]
+dashboard = ["streamlit"]
+dev = ["pytest", "black", "ruff", "ipykernel"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
