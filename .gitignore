@@ -10,8 +10,16 @@ build/
 !examples/data/*.csv
 
 # Notebooks
-notebooks/ProteinAbundances.csv
-notebooks/meta_data.csv
+notebooks/
+
+# tests
+tests/
+
+#notes
+docs/notes
+
+# examples
+examples/
 
 # Data files you don't want public
 *.mat
@@ -24,3 +32,4 @@ Thumbs.db
 # VSCode
 .vscode/
 examples/data/ProteinAbundances.csv 
+
