@@ -4,6 +4,8 @@ A quality control and batch-correction pipeline for bulk proteomics data, built 
 
 Proteomics data from FragPipe tends to come with batch effects baked in different runs, different days, same underlying biology drowned out by technical noise. This package was built to find that noise, prove it's really there and correct for it without accidentally erasing the biology you care about.
 
+**REFER TO THE DOCS FOLDER FOR IMPLEMENTATION DETAILS AND USER WARNINGS**
+
 ## What it actually does
 
 - Takes a FragPipe protein abundance CSV plus a metadata/traits CSV and gets them into shape
